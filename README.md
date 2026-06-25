@@ -21,6 +21,12 @@
 
 A full-stack AI-powered knowledge assistant that allows companies to upload internal documents and connect their existing tools, enabling employees to get instant accurate answers through a smart chatbot. Built with React, C# / .NET, and PostgreSQL, the system uses Retrieval Augmented Generation (RAG) via Microsoft Agent Framework, ensuring every answer is strictly based on the company's own knowledge with a source reference attached to every response.
 
+Odin Auto is a full-stack AI-powered HR knowledge assistant designed to help employees quickly access company policies, procedures, and HR-related information through a conversational AI interface.
+The platform allows HR administrators to upload and manage internal documents such as employee handbooks, onboarding guides, leave policies, benefits information, workplace procedures, and frequently asked questions. Employees can ask questions in natural language and receive accurate, source-backed answers instantly.
+Built with React, ASP.NET Core (.NET), and PostgreSQL, the solution uses Retrieval-Augmented Generation (RAG) powered by Microsoft Agent Framework to ensure that responses are generated exclusively from company-approved HR documentation. Every answer includes references to the original source material, providing transparency, reliability, and trust.
+The primary goal of the project is to reduce the time employees spend searching for HR information, improve self-service access to company knowledge, and support HR teams by automating responses to common questions.
+
+While the initial version focuses on Human Resources, the platform is designed with a scalable architecture that can later be expanded to support additional departments such as IT, Sales, Customer Service, Finance, and Operations.)
 ---
 
 ## ✅ Functional Requirements
