@@ -76,11 +76,12 @@ A new mechanic joins Odin Auto on his first day. He needs to know the procedure 
 
 - REST API connecting frontend to database and AI
 - Document processing pipeline — PDF, Word, TXT text extraction and chunking
+- AI integration via Microsoft Agent Framework
 - Authentication technology ensuring only registered employees can access the chatbot
 
 ### Database — PostgreSQL
 
-- Stores users, HR documents, text chunks, embeddings and chat history
+- Stores users, HR documents and maybe we will add chat history
 
 ### AI — Microsoft Agent Framework
 
