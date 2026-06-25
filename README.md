@@ -45,9 +45,9 @@ A full-stack AI-powered knowledge assistant that allows companies to upload inte
 - Every answer shows source reference
 - Chat history saved per employee session
 
-### 3. Odin Bilhandel AS — Demo Company
+### 3. Odin Auto — Mock company
 
-- Mock car dealership with preloaded internal knowledge base
+- Preloaded internal knowledge base
 - Includes employee handbook, sales procedures, financing guide, service manuals, warranty policy, commission structure, code standards and API docs for internal dev team
 
 ---
