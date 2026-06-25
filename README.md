@@ -78,7 +78,6 @@ A full-stack AI-powered knowledge assistant that allows companies to upload inte
 
 ### Database — PostgreSQL
 
-- pgvector extension for vector similarity search
 - Auth handled inside PostgreSQL
 - Stores companies, users, documents, code files, text chunks, embeddings, Q&A pairs and chat history
 
