@@ -1,4 +1,4 @@
-# Odin Auto — AI-Powered Company Knowledge Assistant
+# Odin Auto — AI-Powered HR Knowledge Assistant
 
 ![Frontend](https://img.shields.io/badge/Frontend-React%20%2F%20TypeScript-blue)
 ![C#](https://img.shields.io/badge/Backend-C%23%20%2F%20.NET-purple)
