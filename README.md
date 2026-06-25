@@ -89,5 +89,4 @@ A full-stack AI-powered knowledge assistant that allows companies to upload inte
 
 ### Hosting
 
-- Local development using Docker Compose for development and testing
-- In the future potentially deployed to Azure — Static Web Apps, App Service and PostgreSQL
+- Local development and maybe in the future use Azure.
