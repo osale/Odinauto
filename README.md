@@ -25,7 +25,7 @@ Our project will be a full-stack web application with an integrated AI-powered c
 
 The system will be built with React, C# / .NET, and PostgreSQL, using Retrieval Augmented Generation (RAG) via Microsoft Agent Framework. This will ensure the AI strictly answers based on the company's own uploaded HR documents. The result is a reliable, accurate, and relevant assistant for any employee. This will also reduce the workload on the HR team by automating responses to common questions. While the initial version focuses on HR, the platform is designed with a scalable architecture that can later be expanded to support additional departments such as IT, Sales, and Customer Service.
 
-Example scenario
+## Example scenario
 A new mechanic joins Odin Auto on his first day. He needs to know the procedure for reporting a workplace injury, but does not know who to ask. Furthermore, he opens the chatbot and asks, "What do I do if I get injured at work?" and instantly receives the correct procedure with a reference to the workplace safety policy.
 
 ---
