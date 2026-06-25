@@ -19,16 +19,14 @@
 
 ## 📖 Description
 
-A full-stack AI-powered knowledge assistant that allows companies to upload internal documents and connect their existing tools, enabling employees to get instant accurate answers through a smart chatbot. Built with React, C# / .NET, and PostgreSQL, the system uses Retrieval Augmented Generation (RAG) via Microsoft Agent Framework, ensuring every answer is strictly based on the company's own knowledge with a source reference attached to every response.
+Many companies can struggle with information overload, especially within Human Resources. Employees waste time searching through HR documents, manuals, and policies just to find simple answers, or end up depending on experienced colleagues for answers that should be easily accessible. Important HR knowledge is often scattered across different files, folders, and systems, making it hard to find the right information at the right time. This can slow down productivity, lead to frustration, and make onboarding new employees unnecessarily difficult.
 
-Odin Auto is a full-stack AI-powered HR knowledge assistant designed to help employees quickly access company policies, procedures, and HR-related information through a conversational AI interface.
+Our project will be a full-stack web application with an integrated AI-powered chatbot focused on HR knowledge. The application will allow HR administrators to upload internal documents such as employee handbooks, leave policies, onboarding guides, and workplace procedures into one central platform. Employees can then ask questions in plain natural language and get instant, accurate answers with a source reference attached to every response. To demonstrate the platform, we will be using a mock company called Odin Auto, a Norwegian car dealership, as a real-world example of how the system works in practice.
 
-The platform allows HR administrators to upload and manage internal documents such as employee handbooks, onboarding guides, leave policies, benefits information, workplace procedures, and frequently asked questions. Employees can ask questions in natural language and receive accurate, source-backed answers instantly.
+The system will be built with React, C# / .NET, and PostgreSQL, using Retrieval Augmented Generation (RAG) via Microsoft Agent Framework. This will ensure the AI strictly answers based on the company's own uploaded HR documents. The result is a reliable, accurate, and relevant assistant for any employee. This will also reduce the workload on the HR team by automating responses to common questions. While the initial version focuses on HR, the platform is designed with a scalable architecture that can later be expanded to support additional departments such as IT, Sales, and Customer Service.
 
-Built with React, ASP.NET Core (.NET), and PostgreSQL, the solution uses Retrieval-Augmented Generation (RAG) powered by Microsoft Agent Framework to ensure that responses are generated exclusively from company-approved HR documentation. Every answer includes references to the original source material, providing transparency, reliability, and trust.
-The primary goal of the project is to reduce the time employees spend searching for HR information, improve self-service access to company knowledge, and support HR teams by automating responses to common questions.
-
-While the initial version focuses on Human Resources, the platform is designed with a scalable architecture that can later be expanded to support additional departments such as IT, Sales, Customer Service, Finance, and Operations.
+Example scenario
+A new mechanic joins Odin Auto on his first day. He needs to know the procedure for reporting a workplace injury, but does not know who to ask. Furthermore, he opens the chatbot and asks, "What do I do if I get injured at work?" and instantly receives the correct procedure with a reference to the workplace safety policy.
 
 ---
 
