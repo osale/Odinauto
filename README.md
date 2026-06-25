@@ -1,6 +1,6 @@
 # Odin Auto — AI-Powered Company Knowledge Assistant
 
-![React](https://img.shields.io/badge/React-TypeScript-blue)
+![Frontend](https://img.shields.io/badge/Frontend-React%20%2F%20TypeScript-blue)
 ![C#](https://img.shields.io/badge/Backend-C%23%20%2F%20.NET-purple)
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue)
 ![AI](https://img.shields.io/badge/AI-Microsoft%20Agent%20Framework-green)
