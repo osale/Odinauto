@@ -32,30 +32,29 @@ A new mechanic joins Odin Auto on his first day. He needs to know the procedure 
 
 ## ✅ Functional Requirements
 
-### 1. Company Admin Panel
-
+## Must Have
 - Admin can register and login
-- Upload knowledge base through three sources:
-  - Documents — PDF, Word, TXT
-  - Code — internal code standards, API docs, deployment guides
-  - Manual Q&A — admin manually types question and answer pairs directly
-- View and delete uploaded knowledge base items
-- See analytics — most asked questions, unanswered questions
-- Generate embeddable chat widget code
-- Manage company settings — name, logo
-
-### 2. Chat Bot — Internal Employees Only
-
-- Employee logs in to access the chatbot
-- Asks questions in natural language
-- AI answers based strictly on company's uploaded knowledge base
+- Employee can register and login
+- Upload HR documents as the core knowledge base — PDF, Word, TXT
+- AI chatbot answers questions based strictly on uploaded HR documents
 - Every answer shows source reference
+
+## Should Have
+- Expand knowledge base with two additional sources:
+     Manual Q&A — admin manually types question and answer pairs directly
+     Code — internal code standards, API docs, deployment guides
+- View and delete uploaded knowledge base items
+- Manage company settings — name, logo
+- See analytics — most asked questions, unanswered questions
+- Support for additional departments such as IT, Sales and Finance
+
+
+## Could Have
+- Expand knowledge base with additional sources such as website scraping and database records
+- Multi language support — adding Norwegian alongside English
 - Chat history saved per employee session
-
-### 3. Odin Auto — Mock company
-
-- Preloaded internal knowledge base
-- Includes employee handbook, sales procedures, financing guide, service manuals, warranty policy, commission structure, code standards and API docs for internal dev team
+- User roles — admin, manager, and employee with different access levels
+- Feedback on answers — employees can rate whether the answer was helpful
 
 ---
 
