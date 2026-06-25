@@ -35,9 +35,10 @@ A new mechanic joins Odin Auto on his first day. He needs to know the procedure 
 ## Must Have
 - Admin can register and login
 - Employee can register and login
-- Upload HR documents as the core knowledge base — PDF, Word, TXT
 - AI chatbot answers questions based strictly on uploaded HR documents
-- Every answer shows source reference
+- Upload HR documents as the core knowledge base — PDF, Word, TXT
+- This chatbot is only accessible to authenticated employees — not publicly available
+- Answer shows source reference
 
 ## Should Have
 - Expand knowledge base with two additional sources:
