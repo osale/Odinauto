@@ -25,35 +25,40 @@ Our project will be a full-stack web application with an integrated AI-powered c
 
 The system will be built with React, C# / .NET, and PostgreSQL, using Retrieval Augmented Generation (RAG) via Microsoft Agent Framework. This will ensure the AI strictly answers based on the company's own uploaded HR documents. The result is a reliable, accurate, and relevant assistant for any employee. This will also reduce the workload on the HR team by automating responses to common questions. While the initial version focuses on HR, the platform is designed with a scalable architecture that can later be expanded to support additional departments such as IT, Sales, and Customer Service.
 
-## Example scenario
-A new mechanic joins Odin Auto on his first day. He needs to know the procedure for reporting a workplace injury, but does not know who to ask. Furthermore, he opens the chatbot and asks, "What do I do if I get injured at work?" and instantly receives the correct procedure with a reference to the workplace safety policy.
+---
+
+## 📋 Example Scenario
+
+A new mechanic joins Odin Auto on his first day. He needs to know the procedure for reporting a workplace injury, but does not know who to ask. He opens the chatbot and asks *"What do I do if I get injured at work?"* and instantly receives the correct procedure with a reference to the workplace safety policy — without contacting HR.
 
 ---
 
 ## ✅ Functional Requirements
 
-## Must Have
-- Admin panel for the HR employees
-- Upload HR documents as the core knowledge base — PDF, Word, TXT 
-- Employer can register and login
-- AI chatbot answers questions based strictly on uploaded HR documents
-- This chatbot is only accessible to authenticated employees — not publicly available
-- Answer shows source reference
+### Must Have
 
-## Should Have
+- Admin panel for managing HR documents and the knowledge base
+- Employee can register and login
+- Upload HR documents as the core knowledge base — PDF, Word, TXT
+- AI chatbot answers questions based strictly on uploaded HR documents
+- Chatbot is only accessible to authenticated employees — not publicly available
+- Every answer shows source reference
+
+### Should Have
+
 - Expand knowledge base with two additional sources:
-     Manual Q&A — admin manually types question and answer pairs directly
-     Code — internal code standards, API docs, deployment guides
+  - Manual Q&A — admin manually types question and answer pairs directly
+  - Code — internal code standards, API docs, deployment guides
 - View and delete uploaded knowledge base items
 - Manage company settings — name, logo
 - See analytics — most asked questions, unanswered questions
+- Chat history saved per employee session
 - Support for additional departments such as IT, Sales and Finance
 
+### Could Have
 
-## Could Have
 - Expand knowledge base with additional sources such as website scraping and database records
 - Multi language support — adding Norwegian alongside English
-- Chat history saved per employee session
 - User roles — admin, manager, and employee with different access levels
 - Feedback on answers — employees can rate whether the answer was helpful
 
@@ -63,37 +68,29 @@ A new mechanic joins Odin Auto on his first day. He needs to know the procedure 
 
 ### Frontend — React + TypeScript
 
-- Admin dashboard SPA
-  - Document, code and Q&A upload interface
-  - Knowledge base management
-  - Analytics dashboard
-  - Widget code generator
-  - Company settings page
-- Chat widget component
-  - Real time chat interface
-  - Source reference display
-- Mock company website — Odin Bilhandel AS
+- Admin dashboard for uploading and managing HR documents and company settings
+- Chat interface with real time responses and source reference display
+- Mock company website — Odin Auto
 
 ### Backend — C# / ASP.NET Core
 
 - REST API connecting frontend to database and AI
-- Document processing pipeline — PDF, Word, TXT text extraction and code file parsing
-- Text chunking and embedding generation
+- Document processing pipeline — PDF, Word, TXT text extraction and chunking
 - RAG pipeline via Microsoft Agent Framework
-- JWT authentication for admin and employees
-- Multi tenant architecture — one platform, many companies
+- JWT authentication ensuring only registered employees can access the chatbot
 
 ### Database — PostgreSQL
 
-- Auth handled inside PostgreSQL
-- Stores companies, users, documents, code files, text chunks, embeddings, Q&A pairs and chat history
+- pgvector extension for vector similarity search
+- Stores users, HR documents, text chunks, embeddings and chat history
 
 ### AI — Microsoft Agent Framework
 
-- Document, code and Q&A chunking and embeddings
+- Document chunking and embedding generation
 - Vector similarity search
-- AI response generation with source references
+- AI response generation strictly based on uploaded HR documents with source references
 
 ### Hosting
 
-- Local development and maybe in the future use Azure.
+- Local development using Docker Compose
+- In the future potentially deployed to Azure
