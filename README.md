@@ -33,10 +33,10 @@ A new mechanic joins Odin Auto on his first day. He needs to know the procedure 
 ## ✅ Functional Requirements
 
 ## Must Have
-- Admin can register and login
-- Employee can register and login
+- Admin panel for the HR employees
+- Upload HR documents as the core knowledge base — PDF, Word, TXT 
+- Employer can register and login
 - AI chatbot answers questions based strictly on uploaded HR documents
-- Upload HR documents as the core knowledge base — PDF, Word, TXT
 - This chatbot is only accessible to authenticated employees — not publicly available
 - Answer shows source reference
 
