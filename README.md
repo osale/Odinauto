@@ -90,5 +90,5 @@ A new mechanic joins Odin Auto on his first day. He needs to know the procedure 
 
 ### Hosting
 
-- Local development using Docker Compose
+- Local development
 - In the future potentially deployed to Azure
