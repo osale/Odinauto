@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Odinauto.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d951139fb0ad8357c8286e968eaba730a0b30b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e46f0d1cbec31ad4fa32b4d556cd058f67c9d405")]
 [assembly: System.Reflection.AssemblyProductAttribute("Odinauto.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Odinauto.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
