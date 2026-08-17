@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cxe2faYbYCw=",
+  "dgSpecHash": "ExFkRhaM060=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamza\\Glasspaper-prosjekt\\Odinauto\\odinauto.api\\Odinauto.api.csproj",
+  "projectFilePath": "C:\\Users\\hamza\\Glasspaper-prosjekt\\Odinauto\\Odinauto.api\\Odinauto.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
@@ -38,9 +38,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "C:\\Users\\hamza\\Glasspaper-prosjekt\\Odinauto\\odinauto.api\\Odinauto.api.csproj",
+      "projectPath": "C:\\Users\\hamza\\Glasspaper-prosjekt\\Odinauto\\Odinauto.api\\Odinauto.api.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\hamza\\Glasspaper-prosjekt\\Odinauto\\odinauto.api\\Odinauto.api.csproj",
+      "filePath": "C:\\Users\\hamza\\Glasspaper-prosjekt\\Odinauto\\Odinauto.api\\Odinauto.api.csproj",
       "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"
