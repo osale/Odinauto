@@ -42,6 +42,6 @@ public class UsersController : ControllerBase
      if (user == null || user.PasswordHash != request.Password)
         return Unauthorized("Invalid email or password");
 
-    return Ok(new { user.id, user.Email, user.Name});
+    return Ok(new { user.Id, user.Email, user.Name});
     }
 }
