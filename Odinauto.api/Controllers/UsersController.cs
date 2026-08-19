@@ -33,4 +33,15 @@ public class UsersController : ControllerBase
         await _context.SaveChangesAsync();
         return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
     }
+
+    [HttpPost("login")]
+    public async Task<ActionResult> Login(LoginRequest request)
+    {
+     var user = await _context.Users.FirstOrDefaultAsync( u => u.Email == request.Email);   
+     
+     if (user == null || user.PasswordHash != request.Password)
+        return Unauthorized("Invalid email or password");
+
+    return Ok(new { user.id, user.Email, user.Name});
+    }
 }
