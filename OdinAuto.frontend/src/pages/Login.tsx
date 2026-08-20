@@ -1,14 +1,23 @@
 import { useState, type FormEvent } from "react";
+import { login } from "../services/authService";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
-  function handleLogin(event: FormEvent<HTMLFormElement>) {
+  async function handleLogin(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    setError("");
 
-    console.log("Email:", email);
+    try {
+      const user = await login(email, password);
+      console.log("Logged in as:", user);
+    } catch {
+      setError("Invalid email or password");
+    }
   }
+
   return (
     <div className="login-page">
       <h1>Welcome back</h1>
@@ -29,6 +38,7 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button type="submit">Login</button>
+        {error && <p style={{ color: "red" }}>{error}</p>}
       </form>
 
       <p>
