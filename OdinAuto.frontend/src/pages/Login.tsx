@@ -54,7 +54,7 @@ function Login() {
       <p className="mt-4 text-sm text-gray-600">
         Don't have an account?{" "}
         <a
-          href="#"
+          href="/register"
           className="font-semibold text-gray-800 no-underline hover:underline"
         >
           Register
