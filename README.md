@@ -92,4 +92,3 @@ A new mechanic joins Odin Auto on his first day. He needs to know the procedure 
 
 - Local development
 - In the future potentially deployed to Azure
-- Testing
