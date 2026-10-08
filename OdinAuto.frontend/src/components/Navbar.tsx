@@ -29,7 +29,7 @@ function Navbar() {
           </a>
 
           <a
-            href="#"
+            href="/about"
             className="rounded px-2 py-1 text-gray-800 no-underline transition hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2"
           >
             About
