@@ -1,7 +1,9 @@
 import { useState, type FormEvent } from "react";
+import { useNavigate } from "react-router-dom";
 import { login } from "../services/authService";
 
 function Login() {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -11,8 +13,8 @@ function Login() {
     setError("");
 
     try {
-      const user = await login(email, password);
-      console.log("Logged in as:", user);
+      await login(email, password);
+      navigate("/chat");
     } catch {
       setError("Invalid email or password");
     }
