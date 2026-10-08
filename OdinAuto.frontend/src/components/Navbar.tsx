@@ -36,13 +36,6 @@ function Navbar() {
           </a>
 
           <a
-            href="#contact"
-            className="rounded px-2 py-1 text-gray-800 no-underline transition hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2"
-          >
-            Contact Us
-          </a>
-
-          <a
             href="/login"
             className="rounded-md border border-gray-800 bg-gray-800 px-4 py-1.5 font-semibold text-white no-underline transition hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2"
           >

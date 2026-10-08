@@ -153,21 +153,21 @@ function About() {
         {/* Call to action */}
         <section
           aria-labelledby="cta-heading"
-          className="px-6 py-16 text-center md:px-10 md:py-20"
+          className="border-t border-gray-200 px-6 py-12 text-center md:px-10 md:py-16"
         >
           <h2
             id="cta-heading"
-            className="mb-4 text-3xl font-bold tracking-tight text-gray-900"
+            className="mb-4 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl"
           >
             Ready to ask your first question?
           </h2>
-          <p className="mx-auto mb-8 max-w-xl text-gray-700">
-            This tool is for Odin Auto employees. Log in with your work account
-            to get started.
+          <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-gray-700 md:text-lg">
+          This tool is for Odin Auto employees. Log in with your work account to
+          get started.
           </p>
           <Link
             to="/login"
-            className="inline-block rounded-lg bg-gray-900 px-6 py-3 font-semibold text-white no-underline transition hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+            className="inline-block rounded-lg bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white no-underline transition hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
           >
             Log in
           </Link>
